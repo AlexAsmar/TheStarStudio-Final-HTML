@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000080; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul li a:hover {
+    color: #ADD8E6; 
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 50px; 
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #000080; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 128, 0.5); 
+    border: 2px solid #000080; 
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #000080; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.element {
+    flex: 0 0 calc(20% - 20px); 
+    background-color: #f0f8ff; 
+    border: 2px solid #000080; 
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#gear-items {
+    text-align: center;
+}
+
+.gear-item img {
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.gear-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.gear-item p {
+    margin-top: 10px;
+}
+
+.gear-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.gear-table td {
+    padding: 10px;
+}
+
+.gear-item {
+    border: none;
+}
+
+#back-to-top {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    background-color: #000080;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#back-to-top:hover {
+    background-color: #0000cd;
+    color: #fff;
+}
+
